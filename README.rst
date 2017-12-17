@@ -33,10 +33,32 @@ A Simple Example
 
 .. code-block:: python
 
-from apptoolkit import Device
+    from apptoolkit import Device
 
-android_devices = Device.get_android_devices()
+    android_devices = Device.get_android_devices()
     
+    下面是输出信息：
+    [
+    {
+        "uid": "BY2WKN1519078327",
+        "rom_version": "Che2-UL00 V100R001CHNC00B287",
+        "brand": "Honor",
+        "os_version": "4.4.2",
+        "sdk_version": "19",
+        "os_type": "Android",
+        "model": "Che2-UL00"
+    },
+    {
+        "uid": "GWY0217414001213",
+        "rom_version": "MHA-AL00C00B213",
+        "brand": "HUAWEI",
+        "os_version": "7.0",
+        "sdk_version": "24",
+        "os_type": "Android",
+        "model": "MHA-AL00"
+    }
+    ]
+   
 Learn more
 -----------
 
