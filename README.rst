@@ -19,6 +19,24 @@ Introduction
 
 This is a lightweight set of tools for obtaining information about Android devices in Python
 
+Installing
+----------
+
+Install and update using `pip`_:
+
+.. code-block:: text
+
+    pip install -U apptoolkit
+
+A Simple Example
+----------------
+
+.. code-block:: python
+
+from apptoolkit import Device
+
+android_devices = Device.get_android_devices()
+    
 Learn more
 -----------
 
