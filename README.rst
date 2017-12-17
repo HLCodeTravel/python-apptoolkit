@@ -22,7 +22,7 @@ This is a lightweight set of tools for obtaining information about Android devic
 Installing
 ----------
 
-Install and update using `pip`_:
+Install and update using `pip`:
 
 .. code-block:: text
 
@@ -62,6 +62,4 @@ A Simple Example
 Learn more
 -----------
 
-You can read this [blog][mafei-blog] to learn more about the `apptoolkit`.
-
-[mafei-blog]: http://mafei.me/
+You can read this http://mafei.me/ to learn more about the `apptoolkit`.
